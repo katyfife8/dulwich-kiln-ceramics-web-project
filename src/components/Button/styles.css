@@ -1,0 +1,42 @@
+button {
+  background-color: #566873;
+  height: 48px;
+  width: 100%;
+  min-width: 208px;
+  max-width: 620px;
+  font-family: "Roboto", sans-serif;
+  color: #f2f2f2;
+  font-size: 1rem;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+  border: none;
+  padding: 0 1rem;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #183140;
+}
+
+.add,
+.remove {
+  min-width: 32px;
+}
+
+.form-button {
+  max-width: 400px;
+  margin: 1rem 0;
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  button {
+    min-width: 80px;
+  }
+
+  .add,
+  .remove {
+    height: 32px;
+  }
+}

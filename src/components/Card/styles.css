@@ -1,0 +1,50 @@
+.card {
+  margin: 0 1.25rem;
+}
+
+.card.col-3 {
+  max-width: 400px;
+  min-width: 208px;
+}
+
+.card.col-2 {
+  min-width: 320px;
+  max-width: 620px;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 16px #c0c0c0;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+}
+
+.text-container {
+  background-color: #fff;
+  min-height: 160px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 0;
+}
+
+/* iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    margin: 0 1rem;
+  }
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .card {
+    flex-grow: 1;
+    margin: 1rem 0 0 0;
+    width: 100%;
+  }
+}

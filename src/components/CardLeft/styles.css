@@ -1,0 +1,40 @@
+.card-wide {
+  max-height: 400px;
+  max-width: 1280px;
+  display: flex;
+}
+
+.image-container-wide {
+  overflow: hidden;
+}
+
+.text-panel {
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 440px;
+  padding: 2rem 4rem;
+}
+
+/* iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card-wide {
+    padding: 0 1.5rem;
+  }
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .card-wide {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .image-container-wide {
+    display: none;
+  }
+}

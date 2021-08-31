@@ -1,0 +1,14 @@
+#quotes-section {
+  background-color: #fff;
+  width: 800px;
+  margin-bottom: 4rem;
+  padding: 4rem 4rem;
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  #quotes-section {
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+}

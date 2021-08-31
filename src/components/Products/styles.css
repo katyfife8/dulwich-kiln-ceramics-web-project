@@ -1,0 +1,8 @@
+.product-row {
+  display: flex;
+  justify-content: center;
+  max-width: 1328px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,78 @@
+.basket {
+  background-color: #fff;
+  width: 664px;
+  text-align: center;
+  padding: 2rem 2rem;
+  margin-bottom: 4rem;
+}
+
+.basket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.basket-image {
+  width: 102px;
+  height: 102px;
+}
+
+.quantity-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity-input {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.quantity {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border: solid 1px #c0c0c0;
+}
+
+.price-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price-row {
+  display: flex;
+}
+
+.cost-text {
+  margin-left: 2rem;
+}
+
+.total {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .basket {
+    width: 100%;
+    min-width: 375px;
+    padding: 2rem 1rem;
+  }
+
+  .basket-image {
+    display: none;
+  }
+
+  .item-name {
+    margin-right: 2rem;
+  }
+
+  .quantity {
+    height: 32px;
+  }
+}

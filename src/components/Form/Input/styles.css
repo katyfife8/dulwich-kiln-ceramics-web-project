@@ -1,0 +1,79 @@
+.input-field {
+  margin: 0.5rem 0 1rem 0;
+  max-width: 400px;
+  min-width: 290px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+input {
+  height: 48px;
+  padding-left: 1rem;
+  border: 1px solid #c0c0c0;
+  flex-basis: 100%;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #c0c0c0;
+}
+
+.input-error {
+  color: #bf0426;
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+select {
+  height: 48px;
+  padding-left: 1rem;
+  border: 1px solid #c0c0c0;
+  flex-basis: 100%;
+  max-width: 400px;
+  color: #0d0d0d;
+  background-color: #fff;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  /* display: block; */
+}
+
+select:focus {
+  outline: 0;
+  border-color: #c0c0c0;
+}
+
+textarea {
+  flex-basis: 100%;
+  resize: none;
+  font-family: "Lora", serif;
+  clear: color;
+  height: 200px;
+  border: 1px solid #c0c0c0;
+  padding: 1rem 0 0 1rem;
+  color: #0d0d0d;
+  font-size: 1rem;
+}
+
+textarea:focus {
+  outline: 0;
+  border-color: #c0c0c0;
+  font-family: "Lora", serif;
+}
+
+::placeholder {
+  color: #909090;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+}

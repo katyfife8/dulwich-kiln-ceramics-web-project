@@ -1,0 +1,81 @@
+#hero {
+  margin-bottom: 4rem;
+}
+
+.hero-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1280px;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 1.25rem;
+}
+
+.title-text {
+  max-width: 56%;
+  font-size: 5rem;
+  color: #f2f2f2;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #f2f2f2;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
+  max-width: 50%;
+}
+
+.button-container {
+  margin-top: 1.5rem;
+  min-width: 290px;
+}
+
+.mobile-background-image {
+  display: none;
+}
+
+/* iPad */
+@media screen and (max-width: 1023px) {
+  .title-text {
+    font-size: 4.5rem;
+    max-width: 64%;
+  }
+  .button-container {
+    margin-top: 1rem;
+    max-width: 50%;
+  }
+  .button-row {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .desktop-background-image {
+    display: none;
+  }
+
+  .mobile-background-image {
+    display: block;
+    width: 100%;
+  }
+
+  .title-text {
+    font-size: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #f2f2f2;
+}
+
+/* Text */
+h1 {
+  font-family: "Lora", serif;
+  font-size: 3.5rem;
+  color: #0d0d0d;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  color: #0d0d0d;
+  margin-bottom: 1rem;
+  line-height: 1.125em;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+p.subtitle {
+  font-size: 1.125rem;
+}
+
+p.summary {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #0d0d0d;
+}
+
+/* Common page elements */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.page-intro {
+  text-align: center;
+  margin: 4rem 0;
+  max-width: 620px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: center;
+  max-width: 1328px;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+#form-section {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.section-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1328px;
+  width: 100%;
+  margin: 0 auto 4rem;
+}
+
+.section-col {
+  width: 44%;
+  margin: 0 1.5rem;
+}
+
+.section-col img {
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+/* iPad */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .section-col img {
+    max-width: 100%;
+  }
+}
+
+/* iPhone */
+@media screen and (max-width: 767px) {
+  .content-section {
+    padding: 0 0;
+  }
+
+  .page-intro {
+    margin: 2rem 0;
+    padding: 0 1.5rem;
+  }
+
+  .card-row {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .section-row {
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .section-col {
+    width: 100%;
+    margin: 0 1.5rem;
+  }
+
+  .section-col:last-child {
+    margin-top: 2rem;
+  }
+
+  .section-col img {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  #form-section {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+}

@@ -1,9 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-// Styles
-import "./App.css";
-
 // Components
 const Header = React.lazy(() => import("./components/Header"));
 const Footer = React.lazy(() => import("./components/Footer"));
@@ -26,11 +23,9 @@ const App = () => {
           <Route path="/about">
             <About />
           </Route>
-
           <Route path="/account">
             <Account />
           </Route>
-
           <Route path="/shop">
             <Shop />
           </Route>

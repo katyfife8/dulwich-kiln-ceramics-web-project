@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename={"/dulwich-kiln-ceramics"}>
+    <Router basename={"/dulwich-kiln-ceramics-web-project"}>
       <App />
     </Router>
   </React.StrictMode>,
